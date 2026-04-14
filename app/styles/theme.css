@@ -3,9 +3,9 @@
   --oui-font-size-base: 16px;
 
   /* colors */
-  --oui-color-primary: 80 134 81;
-  --oui-color-primary-light: 126 193 126;
-  --oui-color-primary-darken: 32 94 43;
+  --oui-color-primary: 142 41 68;
+  --oui-color-primary-light: 163 61 92;
+  --oui-color-primary-darken: 118 25 48;
   --oui-color-primary-contrast: 255 255 255;
 
   --oui-color-link: 126 193 126;
@@ -15,12 +15,12 @@
   --oui-color-tertiary: 218 218 218;
   --oui-color-quaternary: 218 218 218;
 
-  --oui-color-danger: 237 113 113;
+  --oui-color-danger: 239 68 68;
   --oui-color-danger-light: 250 167 188;
   --oui-color-danger-darken: 237 72 122;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 126 193 126;
+  --oui-color-success: 22 163 74;
   --oui-color-success-light: 101 240 194;
   --oui-color-success-darken: 0 161 120;
   --oui-color-success-contrast: 255 255 255;
@@ -33,8 +33,8 @@
   --oui-color-fill: 36 32 47;
   --oui-color-fill-active: 40 46 58;
 
-  --oui-color-base-1: 93 83 123;
-  --oui-color-base-2: 81 72 107;
+  --oui-color-base-1: 2 8 23;
+  --oui-color-base-2: 31 41 59;
   --oui-color-base-3: 68 61 69;
   --oui-color-base-4: 57 52 74;
   --oui-color-base-5: 51 46 66;
@@ -47,9 +47,9 @@
   --oui-color-base-foreground: 255 255 255;
   --oui-color-line: 255 255 255;
 
-  --oui-color-trading-loss: 245 97 139;
+  --oui-color-trading-loss: 239 68 68;
   --oui-color-trading-loss-contrast: 255 255 255;
-  --oui-color-trading-profit: 41 233 169;
+  --oui-color-trading-profit: 22 163 74;
   --oui-color-trading-profit-contrast: 255 255 255;
 
   /* gradients */
@@ -65,8 +65,8 @@
   --oui-gradient-danger-start: 153 24 76;
   --oui-gradient-danger-end: 245 97 139;
 
-  --oui-gradient-brand-start: 126 193 126;
-  --oui-gradient-brand-end: 80 134 81;
+  --oui-gradient-brand-start: 163 61 92;
+  --oui-gradient-brand-end: 118 25 48;
   --oui-gradient-brand-stop-start: 6.62%;
   --oui-gradient-brand-stop-end: 86.5%;
   --oui-gradient-brand-angle: 17.44deg;
@@ -97,4 +97,11 @@
 html, body {
   font-family: 'Manrope', sans-serif !important;
   font-size: 16px !important;
+}
+
+.orderly-app-container,
+.orderly-app-container *,
+.orderly-app-container *::before,
+.orderly-app-container *::after {
+  font-family: 'Manrope', sans-serif !important;
 }
